@@ -1,0 +1,17 @@
+{
+  "name": "milanpetrovic",
+  "version": "1.0.0",
+  "description": "Custom Tailwind WP Theme",
+  "main": "index.php",
+  "scripts": {
+    "dev": "tailwindcss -i ./css/tailwind.css -o ./css/app.css --watch",
+    "prod": "tailwindcss -i ./css/tailwind.css -o ./css/app.min.css --minify"
+  },
+  "author": "Milan Petrovic",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.18"
+  }
+}
